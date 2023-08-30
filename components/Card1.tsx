@@ -45,7 +45,7 @@ link:'/phone-tablets'
 
 const Card1 = () => {
   return (
-    <div className='max-w-screen-xl mx-auto bg-white rounded-md h-48 flex items-center relative'>
+    <div className='max-w-screen-xl mx-auto bg-white rounded-md h-48 flex items-center relative shadow-lg'>
         <div className='flex justify-around items-center w-full py-2 px-16'>
         {cards.map((item,index)=>(
             <div key={index} className=''>

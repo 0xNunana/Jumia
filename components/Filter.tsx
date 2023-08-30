@@ -39,7 +39,7 @@ const marketplaceCategories = [
 const Filter = () => {
   return (
     <div className='flex justify-between space-x-5 py-3'>
-        <div className='bg-white w-56'>
+        <div className='bg-white w-56 shadow-lg'>
 {marketplaceCategories.map((item,index)=>(
     <div key={index}>
         
@@ -47,11 +47,11 @@ const Filter = () => {
     </div>
 ))}
         </div>
-        <div className='flex-1 relative'>
+        <div className='flex-1 relative shadow-lg'>
             <Image src='/1.jpg' fill alt='ads'/>
         </div>
         <div className=' w-56 space-y-3'>
-            <div className='bg-white'> {third.map((item,index)=>(
+            <div className='bg-white shadow-lg'> {third.map((item,index)=>(
                 <div key={index} className='px-3 py-3 flex space-x-2 bg-white rounded-md items-center'>
                    <Image src={item.icon} height={35} width={35} alt={`icons ${index}`}/>
                     <div>
@@ -61,7 +61,7 @@ const Filter = () => {
                 </div>
             ))}</div>
            
-            <div className='relative bg-white h-[50%]'>
+            <div className='relative bg-white h-[50%] shadow-lg'>
                 <Image src='/ad2.png' fill alt='ad'/>
             </div>
 
