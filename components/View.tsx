@@ -4,6 +4,7 @@ import Card1 from './Card1'
 import TopSelling from './TopSelling'
 import Deals from './Deals'
 import Payday from './Payday'
+import Promo from './Promo'
 
 const View = () => {
   return (
@@ -13,6 +14,7 @@ const View = () => {
         <TopSelling/>
         <Deals/>
         <Payday/>
+        <Promo/>
     </div>
   )
 }
