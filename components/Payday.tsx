@@ -46,7 +46,7 @@ const payday=[
 
 const Payday = () => {
   return (
-    <div className='max-w-screen-xl mx-auto bg-white   shadow-lg relative '>
+    <div className='max-w-screen-xl mx-auto bg-white   shadow-lg relative pb-3 '>
     <div className='flex justify-between  items-center bg-[#276076] rounded-t-lg text-white'>
       <p className=' py-2 px-3 text-2xl font-medium'>Payday Sale | Up to 45% off </p>
       <div className='flex justify-center items-center px-3'>
@@ -58,7 +58,7 @@ const Payday = () => {
     <div className='flex px-5 group '>
 
     {payday.map((item,index)=>(
-      <div key={index} className='hover:shadow-lg p-2 w-52 hover:scale-105'>
+      <div key={index} className='hover:shadow-lg px-2 pt-3 pb-8  w-52 hover:scale-105'>
         <div className='relative h-[200px] w-[200px]'>
         <Image src={item.image} height={200} width={200} alt={`top ${index}`}/>
         <div className='absolute right-0 top-1  text-[#f68b1e] bg-[#fef3e9] p-1 '>{item.discount}</div>
