@@ -5,7 +5,7 @@ import { faUser,faCircleQuestion,faCartShopping,faMagnifyingGlass,faAngleDown } 
 
 const Header = () => {
   return (
-    <div className='bg-white sticky top-1 z-30'>
+    <div className='bg-white sticky top-0 z-30'>
   <div className=' flex items-center max-w-screen-xl mx-auto justify-between'>
     <div className=' flex items-center h-20 mr-7'>
     <Image src='/logo.svg' width={200} height={300} alt='Logo' className=''/>
