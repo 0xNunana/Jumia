@@ -49,10 +49,10 @@ const TopSelling = () => {
   return (
     <div className='max-w-screen-xl mx-auto bg-white  p-2 shadow-lg relative '>
       <p className=' text-xl font-medium'>Top selling items</p>
-      <div className='flex px-5 group'>
+      <div className='flex px-5 group '>
 
       {top.map((item,index)=>(
-        <div key={index} className='hover:shadow-lg p-2 w-52'>
+        <div key={index} className='hover:shadow-lg p-2 w-52 hover:scale-105'>
           <div className='relative h-[200px] w-[200px]'>
           <Image src={item.image} height={200} width={200} alt={`top ${index}`}/>
           <div className='absolute right-0 top-1  text-[#f68b1e] bg-[#fef3e9] p-1 '>{item.discount}</div>

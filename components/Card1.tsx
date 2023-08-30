@@ -48,7 +48,7 @@ const Card1 = () => {
     <div className='max-w-screen-xl mx-auto bg-white rounded-md h-48 flex items-center relative shadow-lg'>
         <div className='flex justify-around items-center w-full py-2 px-16'>
         {cards.map((item,index)=>(
-            <div key={index} className=''>
+            <div key={index} className='hover:scale-105'>
                 <Link href= {item.link}>
                 <Image src={item.image} height={130} width={130} alt={`nav ${index}`}/>
 <p className='text-center py-1'>{item.name}</p>
