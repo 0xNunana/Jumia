@@ -12,7 +12,7 @@ import Info from './Info'
 
 const View = () => {
   return (
-    <div className='max-w-screen-xl mx-auto py-3 min-h-screen space-y-5 mb-20'>
+    <div className='max-w-screen-xl mx-auto py-3 min-h-screen space-y-5 '>
         <Filter/>
         <Card1/>
         <TopSelling/>
